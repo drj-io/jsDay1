@@ -6,7 +6,7 @@ console.log(array_example[0])
 
 // {} = object
 var object_example = {
-    name : "david",
+    name : "david",  // this is a property
     age: 41
 }
 
@@ -14,7 +14,7 @@ console.log(object_example.name)
 
 // "" = string
 var string_example = "Hello world!";
-console.log(string_example
+    console.log(string_example
 )
 
 var people = [

@@ -1,10 +1,7 @@
 //var people = ["David","Three","Brian","Logan", "Molly", "Spencer"]
 
 
-for (var i = 0; i < 9; i++) {
-   console.log(i);
-   // more statements
-}
+
 
 var people = [
     {
@@ -34,4 +31,10 @@ var people = [
     },
 ]
 
+console.log("there are "+  people.length +" people in the class");
+
+for (var i = 0; i < people.length ; i=i+2) {
+   console.log("i=" + i + " - name: " + people[i].name);
+   // more statements
+}
 
